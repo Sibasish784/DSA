@@ -8,5 +8,18 @@ public class SumofEvenNbrBtn20to40 {
             sum += i;
         }
         System.out.println("The sum of even numbers between 20 and 40 is: " + sum);
+
+
+
+
+        // the same in other way
+
+        int sum2 = 0;
+        for (int i = 20; i <= 40; i++) {
+            if (i % 2 == 0) {
+                sum2 += i;
+            }
+        }
+        System.out.println("The sum of even numbers between 20 and 40 (other way) is: " + sum2);
     }
 }

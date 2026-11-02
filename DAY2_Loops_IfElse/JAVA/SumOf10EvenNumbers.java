@@ -28,5 +28,20 @@ public class SumOf10EvenNumbers {
         }
         System.out.println("The sum of next 10 even numbers is: " + sum);
         sc.close();
+
+
+
+        // the same  in other way as 
+
+        int sum2 = 0;
+        // for (int i = 0; i < 20; i += 2) {
+        //     sum2 += i;
+        // }
+        for (int i = 0; i < 20; i++) {
+            if (i % 2 == 0) {
+                sum2 += i;
+            }
+        }
+        System.out.println("The sum of next 10 even numbers is: " + sum2);
     }
 }
