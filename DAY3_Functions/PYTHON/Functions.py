@@ -13,12 +13,10 @@ def function_factorial(n):
 n = 10
 print("sum of 1 to", n, "is:", function_factorial(n))
 
-
-
-# in python the function is defined using the def keyword
-# the function name is followed by parentheses () and a colon :
-# it takes parameters (arguments) inside the parentheses
-# it returns a value using the return statement
-# it can be called by its name followed by parentheses (), multiple times
-# it can be defined anywhere in the program
-# it can be defined before or after it is called
+# In Python, a function is defined using the def keyword.
+# The function name is followed by parentheses () and a colon :.
+# It can accept parameters (arguments) inside the parentheses.
+# It returns a value using the return statement (or returns None by default).
+# It can be called by its name followed by parentheses (), multiple times.
+# It can be defined at the module level or nested inside functions/classes, adhering to standard scoping rules.
+# It must be defined before it is called during execution, as Python evaluates code sequentially.
